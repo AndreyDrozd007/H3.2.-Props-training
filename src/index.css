@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.square__container,
+.text__container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+  margin-bottom: 2rem;
+}
+
+.big-square,
+.less-square,
+.small-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  font-size: 1.3rem;
+
+  background-color: coral;
+}
+
+.big-square {
+  width: 20rem;
+  height: 20rem;
+}
+
+.less-square {
+  width: 15rem;
+  height: 15rem;
+}
+
+.small-square {
+  width: 10rem;
+  height: 10rem;
+}
